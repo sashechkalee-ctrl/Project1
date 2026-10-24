@@ -3,6 +3,7 @@ import java.util.Random;
 public class Person{
     Person(int sizeBoard) {
         Random random = new Random();
+
         x = random.nextInt(sizeBoard - 1);
         y = sizeBoard - 1;
     }
